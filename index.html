@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=DM+Serif+Text&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Amantia Fanara</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#ContactMe">
+                <img src="./icons/email.svg" alt="envelope" style="width: 20px; height: 20px; margin-right: 5px;" />
+                Contact Me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="https://github.com/amanatia" target="_blank">
+              <img src="./icons/git.svg" alt="GitHub" style="width: 20px; height: 20px; margin-right: 5px;" />
+              GitHub
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/amantia-fanara-0153a81b8/" target="_blank">
+              <img src="./icons/linkedIn.svg" alt="LinkedIn" style="width: 20px; height: 20px; margin-right: 5px;" /> 
+               LinkedIn
+            </a>
+          </li>
+          <li>
+            <button id="theme-toggle" class="btn btn-sm btn-outline-light ms-3 d-flex align-items-center justify-content-center" style="width: 36px; height: 36px; padding: 0;">
+                <img id="theme-icon" src="./icons/sun.svg" alt="toggle theme" style="width: 24px; height: 24px;" />
+              </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero d-flex flex-column align-items-center justify-content-center text-center parallax">
+    <img src="./icons/doggy.jpg" alt="Doggy Photo" style = "width: 300px; margin-top: 5px" class= "profile-img mb-3" data-aos="zoom-in" />
+    <div class="hero-text">
+      <h1 class="welcome intro-line">Welcome to my site!</h1>
+      <p class="intro intro-line">Hi, I am Amantia!</p>
+      <p class="lead intro-line">You can explore this website to find out more about me.</p>
+      <p class=" lead about intro-line">As an aspiring engineer, I’m always eager to level up — constantly exploring new tools, technologies, and everything modern development has to offer.</p>
+      <p class="intro-line"> If you would like to know more about my career history visit <a  class="experience-link" href=" #ExperienceSection">My Experience</a> </p>
+      <p class="intro-line">If you would like to know more about me and my hobbies visit <a class="hobbies-link" href="#HobbiesSection">My Hobbies</a></p>
+    </div>
+  </header>
+
+
+  <section id="ExperienceSection" class="container my-5 theme-section">
+    <h2 class="text-center mb-4" data-aos="fade-up">My Experience</h2>
+        <div class="timeline">
+              <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content left">
+                  <h5 class="role">Software/Solutions Engineer Intern</h5>
+                  <p class="roleDescription">I mainly work on Celonis, on the ESG Sustainability App.
+                    Primarily working with SQL for both front-end and back-end development.
+                    I am working on a Bank application also, where I have to write scripts in Python. I also work on Jira,
+                    where I create stories, write their acceptance criteria, their description and prepare and execute test cases  to
+                    ensure functionality. </p>
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content right">
+                  <p class="work_time"><strong>Jul 2024 – Present</strong></p>
+                  <p class="company">Pfizer, Thessaloniki Greece</p>
+                </div>
+              </div>
+              <!--Second Experience-->
+              <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content left">
+                  <h5 class="role">Waitress</h5>
+                  <p class="roleDescription">Worked at a coffeshop in Pelion where I
+                    had the chance to do a little bit of everything.
+                    From coffee, to drinks, to cocktails, to food, pretty much all😎.
+                    This job taught how to stay calm and appreciate teamwork.  </p>
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content right">
+                  <p class="work_time"><strong>Summers 2020-2023</strong></p>
+                  <p class="company">Radiofono The Music Bistro, Pelion </p>
+                </div>
+              </div>
+              <!--Third Experience-->
+              <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content left">
+                  <h5 class="role">Receptionist</h5>
+                  <p class="roleDescription">Worked at a small hotel in Pelion as a receptionist (with cleaning on the side 😉).
+                    It was definitely a demanding and tiring job, 
+                    but the best part? After every shift, 
+                    I’d hit the beach for some relaxation and a tan. 
+                    Totally worth it!
+                  </p>
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content right">
+                  <p class="work_time"><strong>Summer 2019</strong></p>
+                  <p class="company">Balconi Hotel , Pelion </p>
+                </div>
+              </div>
+              <!--Fourth Experience-->
+              <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content left">
+                  <h5 class="role">Translator</h5>
+                  <p class="roleDescription"> My first job was working with
+                    an American documentary crew for a few weeks.
+                    I helped them interview local villagers who were 
+                    also farmers and beekeepers. 
+                    My main role was translating between English and Greek. 
+                    The crew actually found me through my English teacher—she 
+                    recommended me to help them out. 
+                    The documentary was all about Greek agriculture, 
+                    and I have to say, I really enjoyed it! 
+                    It was a great experience to be part of something 
+                    so interesting and learn about the local farming community.
+                    Also I got stung by a bee 🐝! 
+                  </p>
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content right">
+                  <p class="work_time"><strong>May 2019</strong></p>
+                  <p class="company">Zagora, Pelion </p>
+                </div>
+              </div>
+        </div>
+  </section>
+
+  <section id="HobbiesSection" class="container my-5 theme-section" data-aos="fade-up">
+    <h2 class="text-center mb-4" >My Hobbies</h2>
+    <div class="d-flex flex-wrap justify-content-center gap-4">
+        <div class="hobby-card text-center flex-fill" style="max-width: 18%;">
+          <div class="hobby-card text-center">
+            <a href="./icons/plane.jpg"  data-lightbox="hobbies"><img src="./icons/plane.jpg" alt="Hobby 1" class="img-fluid hobby-img" /></a>
+            <p class="caption">Traveling</p>
+          </div>
+        </div>
+        <div class="hobby-card text-center flex-fill" style="max-width: 18%;">
+          <div class="hobby-card text-center">
+            <a href="./icons/chalidiki.jpg"  data-lightbox="hobbies"><img src="./icons/chalidiki.jpg" alt="Hobby 2" class="img-fluid hobby-img" /></a>
+            <p class="caption">Going to the beach</p>
+          </div>
+        </div>
+        <div class="hobby-card text-center flex-fill" style="max-width: 18%;">
+          <div class="hobby-card text-center">
+            <a href="./icons/ski.jpg"  data-lightbox="hobbies"><img src="./icons/ski.jpg" alt="Hobby 3" class="img-fluid hobby-img" /></a>
+            <p class="caption">Skiing</p>
+          </div>
+        </div>
+        <div class="hobby-card text-center flex-fill" style="max-width: 18%;">
+          <div class="hobby-card text-center">
+            <a href="./icons/pony.jpg"  data-lightbox="hobbies"><img src="./icons/pony.jpg" alt="Hobby 4" class="img-fluid hobby-img" /></a>
+            <p class="caption">Looking at Ponnies</p>
+          </div>
+        </div>
+        <div class="hobby-card text-center flex-fill" style="max-width: 18%;">
+            <div class="hobby-card text-center">
+              <a href="./icons/hiking.jpg"  data-lightbox="hobbies"><img src="./icons/hiking.jpg" alt="Hobby 4" class="img-fluid hobby-img" /></a>
+              <p class="caption">Nature Hiking</p>
+            </div>
+          </div>
+
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4" id="ContactMe">
+    <div class="container d-flex justify-content-between align-items-start flex-wrap">
+      <div class="contact-info text-start small">
+        <p class="mb-1">Email: <a href="mailto:amantiafanara@gmail.com" class="text-white">amantiafanara@gmail.com</a></p>
+        <p class="mb-0">📍Thessaloniki, Greece</p>
+      </div>
+      <div class="text-end w-100 mt-3 text-center text-md-end">
+        <hr class="bg-light"/>
+        <p class="mb-0">&copy; 2025 Amantia Fanara</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+  <!--Dark Theme Button-->
+  <script src="index.js"></script>
+</body>
+
+</html>
